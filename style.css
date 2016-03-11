@@ -1,8 +1,41 @@
-h1 {font-size: 80px; 
-	color: white; 
-	font-family: monospace; 
-	padding: 17.5% 50% 50% 35%; 
-	font-weight: bold; 
-	text-transform: uppercase; 
-	text-align: middle; 
-	background-color: black;}
+@import url('http://fonts.googleapis.com/css?family=Advent+Pro'); 
+h1 { font-size: 100px; color: #f06eaa; font-family: 'advent pro', sans serif; font-weight: bold; text-transform: uppercase; text-align: center; 
+} 
+p {  font-family: 'advent pro',sans-serif; letter-spacing: 1px; padding: 0px 20% 0px 20%; color: #f06eaa; line-height: 25px; font-size: 18px; text-align: center; Margin: 0; 
+  }
+body { font-family: 'advent pro', sans serif; margin:0;
+}
+.logo {
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+}
+li {list-style-type: none;
+}
+header { height: 1500px; background: url(https://static.pexels.com/photos/6662/creative-smartphone-notebook-typography.jpg) 10px 20px/50px 50px; position: relative;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+  	z-index: -1;
+}
+header > nav { text-align: right;
+               height: 60px; 
+               background-color: transparent;
+               width: 100%;
+               position: fixed;
+               padding: 10px 0px 0px 0px;
+}
+header > nav ul {list-style-type: none;
+}
+header > nav ul li { display: inline-block;  
+}
+header > nav ul li a {text-decoration: none; font-weight: bold; font-size: 30px; padding: 5px; color: #f06eaa; text-align: right; text-shadow: 1px 1px 2px #000000;}
+#zawadi {padding:400px; color: #f06eaa; font-weight: bold; text-transform: uppercase; text-shadow: 5px 5px 10px #000000;font-family: 'advent pro',sans-serif; z-index: 0; margin: 0;}
+#about { background-color: White; padding: 300px 300px; }
+#zee {font-family: 'advent pro',sans-serif; color: #f06eaa; text-align: center; font-weight: bold; font-size: 170px; margin: 0; text-transform: uppercase;}
+div.bio {float: right;}
+div.both {display: inline}
+
