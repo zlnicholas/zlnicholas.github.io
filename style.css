@@ -13,13 +13,13 @@ body { font-family: 'advent pro', sans serif; margin:0;
 }
 li {list-style-type: none;
 }
-header { height: 1500px; background: url(https://static.pexels.com/photos/6662/creative-smartphone-notebook-typography.jpg) 10px 20px/50px 50px; position: relative;
+header { height: 1000px; background: url(https://static.pexels.com/photos/6662/creative-smartphone-notebook-typography.jpg) 10px 20px/50px 50px; position: relative;
     width: 100%;
     margin: 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 100%;
-  	z-index: -1;
+    z-index: -1;
 }
 header > nav { text-align: right;
                height: 60px; 
@@ -36,6 +36,5 @@ header > nav ul li a {text-decoration: none; font-weight: bold; font-size: 30px;
 #zawadi {padding:400px; color: #f06eaa; font-weight: bold; text-transform: uppercase; text-shadow: 5px 5px 10px #000000;font-family: 'advent pro',sans-serif; z-index: 0; margin: 0;}
 #about { background-color: White; padding: 300px 300px; }
 #zee {font-family: 'advent pro',sans-serif; color: #f06eaa; text-align: center; font-weight: bold; font-size: 170px; margin: 0; text-transform: uppercase;}
-div.bio {float: right;}
-div.both {display: inline}
+#bio {text-align: center;}
 
