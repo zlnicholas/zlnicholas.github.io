@@ -1,18 +1,15 @@
 @import url('http://fonts.googleapis.com/css?family=Advent+Pro'); 
-h1 { font-size: 100px; color: #f06eaa; font-family: 'advent pro', sans serif; font-weight: bold; text-transform: uppercase; text-align: center; 
-} 
-p {  font-family: 'advent pro',sans-serif; letter-spacing: 1px; padding: 0px 20% 0px 20%; color: #f06eaa; line-height: 25px; font-size: 18px; text-align: center; Margin: 0; 
-  }
+
 body { font-family: 'advent pro', sans serif; margin:0;
 }
 .logo {
-    float: left;
-    width: 50px;
-    height: 50px;
-    padding-left: 10px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    padding-left: 50%;
+    padding-right: 50%;
 }
-li {list-style-type: none;
-}
+.menu {padding: 30px 30px 0px 0px}
 header { height: 1000px; background: url(https://static.pexels.com/photos/6662/creative-smartphone-notebook-typography.jpg) 10px 20px/50px 50px; position: relative;
     width: 100%;
     margin: 0;
@@ -28,13 +25,40 @@ header > nav { text-align: right;
                position: fixed;
                padding: 10px 0px 0px 0px;
 }
-header > nav ul {list-style-type: none;
-}
-header > nav ul li { display: inline-block;  
-}
-header > nav ul li a {text-decoration: none; font-weight: bold; font-size: 30px; padding: 5px; color: #f06eaa; text-align: right; text-shadow: 1px 1px 2px #000000;}
-#zawadi {padding:400px; color: #f06eaa; font-weight: bold; text-transform: uppercase; text-shadow: 5px 5px 10px #000000;font-family: 'advent pro',sans-serif; z-index: 0; margin: 0;}
-#about { background-color: White; padding: 300px 300px; }
-#zee {font-family: 'advent pro',sans-serif; color: #f06eaa; text-align: center; font-weight: bold; font-size: 170px; margin: 0; text-transform: uppercase;}
-#bio {text-align: center;}
+#Online { height: 1000px; 
+    position: relative;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;}
+#online-title { text-align: center;  font-size:100px; color: #f06eaa;}
 
+#Offline { height: 1000px;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;}
+#offline-title {text-align: center;   font-size:100px; color: #f06eaa;}
+
+#Skills { height: 1000px;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;}
+#skills-title {text-align: center;    font-size:100px; color: #f06eaa;}
+
+#Stalk-me { height: 1000px;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;}
+#stalk-me-title {text-align: center;  font-size:100px; color: #f06eaa;}
+
+)))>h1 font-size: 100px; color: #f06eaa; font-family: 'advent pro', sans serif; font-weight: bold; text-transform: uppercase; text-align: center;<(((
