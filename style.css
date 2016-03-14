@@ -4,8 +4,8 @@ body { font-family: 'advent pro', sans serif; margin:0;
 }
 .logo {
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     padding-left: 50%;
     padding-right: 50%;
 }
