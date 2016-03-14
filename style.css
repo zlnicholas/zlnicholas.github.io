@@ -3,9 +3,9 @@
 body { font-family: 'advent pro', sans serif; margin:0;
 }
 .logo {
-    width: 200px;
-    height: 200px;
-    padding-left: 42.75%;
+    width: 150px;
+    height: 150px;
+    padding-left: 47%;
     padding-right: 60%;
     margin; 0;
 }
@@ -25,40 +25,16 @@ header > nav { text-align: right;
                position: fixed;
                padding: 10px 0px 0px 0px;
 }
-#Online { height: 1000px; 
+#Online,#Offline,#Skills,#Stalk-me  { height: 1000px; 
     position: relative;
     width: 100%;
     margin: 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 100%;}
-#online-title { text-align: center;  font-size:100px; color: #f06eaa;}
 
-#Offline { height: 1000px;
-    position: relative;
-    width: 100%;
-    margin: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0% 100%;}
-#offline-title {text-align: center;   font-size:100px; color: #f06eaa;}
+#online-title,#offline-title,#skills-title,#stalk-me-title { text-align: center;  font-size:100px; color: #f06eaa;}
 
-#Skills { height: 1000px;
-    position: relative;
-    width: 100%;
-    margin: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0% 100%;}
-#skills-title {text-align: center;    font-size:100px; color: #f06eaa;}
-
-#Stalk-me { height: 1000px;
-    position: relative;
-    width: 100%;
-    margin: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0% 100%;}
-#stalk-me-title {text-align: center;  font-size:100px; color: #f06eaa;}
-
+#footer {margin:0;}
+h3 {font-size:18px; color: white;text-align: center; padding:20px; background-color: #f06eaa;}
 )))>h1 font-size: 100px; color: #f06eaa; font-family: 'advent pro', sans serif; font-weight: bold; text-transform: uppercase; text-align: center;<(((
