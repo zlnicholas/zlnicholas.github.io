@@ -1,38 +1,62 @@
 @import url('http://fonts.googleapis.com/css?family=Advent+Pro'); 
 
-body { font-family: 'advent pro', sans serif; margin:0;
+body { font-family: 'advent pro', sans serif; margin:0; font-weight: bold; text-shadow: 2px 5px 5px #000000;
 }
 .logo {
     width: 150px;
     height: 150px;
     padding-left: 47%;
     padding-right: 60%;
-    margin; 0;
-}
+    margin: 0;}
 .menu {padding: 30px 30px 0px 0px}
-header { height: 1000px; background: url(https://static.pexels.com/photos/6662/creative-smartphone-notebook-typography.jpg) 10px 20px/50px 50px; position: relative;
-    width: 100%;
-    margin: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0% 100%;
-    z-index: -1;
+html { height: 1000px; background: url(https://static.pexels.com/photos/6662/creative-smartphone-notebook-typography.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 header > nav { text-align: right;
                height: 60px; 
                background-color: transparent;
                width: 100%;
-               position: fixed;
+               position: relative;
                padding: 10px 0px 0px 0px;
 }
-#Online,#Offline,#Skills,#Stalk-me  { height: 1000px; 
+#main { height: 1000px; 
     position: relative;
     width: 100%;
     margin: 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 100%;}
-
+#Online { height: 1000px; 
+    position: relative;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;}
+#Offline { height: 1000px; 
+    position: relative;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;}
+#Skills { height: 1000px; 
+    position: relative;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;}
+#Stalk-me { height: 1000px; 
+    position: relative;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;}
 #online-title,#offline-title,#skills-title,#stalk-me-title { text-align: center;  font-size:100px; color: #f06eaa;}
 
 #footer {margin:0;}
