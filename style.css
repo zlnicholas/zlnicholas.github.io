@@ -2,25 +2,19 @@
 
 body { font-family: 'advent pro', sans serif; margin:0; font-weight: bold; text-shadow: 2px 5px 5px #000000;
 }
-.logo {
-    width: 150px;
-    height: 150px;
-    padding-left: 47%;
-    padding-right: 60%;
-    margin: 0;}
+.logo {width: 150px;
+       height: 150px;
+       display: inline block;       
+       padding-left: 50%;
+       padding-right: 50%;
+       margin: 0;}
 .menu {padding: 30px 30px 0px 0px}
-html { height: 1000px; background: url(https://static.pexels.com/photos/6662/creative-smartphone-notebook-typography.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-header > nav { text-align: right;
-               height: 60px; 
-               background-color: transparent;
+header > nav { background: url(https://static.pexels.com/photos/6662/creative-smartphone-notebook-typography.jpg) no-repeat center center fixed; 
                width: 100%;
+               height: 1000px;
                position: relative;
                padding: 10px 0px 0px 0px;
+  background-size: cover;
 }
 #main { height: 1000px; 
     position: relative;
@@ -29,14 +23,8 @@ header > nav { text-align: right;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 100%;}
-#Online { height: 1000px; 
-    position: relative;
-    width: 100%;
-    margin: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0% 100%;}
-#Offline { height: 1000px; 
+#Work { 
+  height: 1000px; 
     position: relative;
     width: 100%;
     margin: 0;
@@ -50,14 +38,14 @@ header > nav { text-align: right;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 100%;}
-#Stalk-me { height: 1000px; 
+#Sketchbook { height: 1000px; 
     position: relative;
     width: 100%;
     margin: 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 100%;}
-#online-title,#offline-title,#skills-title,#stalk-me-title { text-align: center;  font-size:100px; color: #f06eaa;}
+#online-title,#work-title,#skills-title,#Sketchbook-title { text-align: center;  font-size:100px; color: #f06eaa;}
 
 #footer {margin:0;}
 h3 {font-size:18px; color: white;text-align: center; padding:20px; background-color: #f06eaa;}
