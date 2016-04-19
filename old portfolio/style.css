@@ -1,0 +1,198 @@
+@import url('http://fonts.googleapis.com/css?family=Advent+Pro'); 
+html, body {margin: 0;}
+#dolly { 
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-image: url("http://s336220192.mialojamiento.es/archivo/codepen/american-psycho/bone-white.png");
+  background-size: 100%;}
+#bunki { 
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  background-size: cover;}
+
+.background {
+  background-image: url("https://pixabay.com/static/uploads/photo/2013/11/28/09/50/wall-219666_960_720.jpg");
+   height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.business-card {
+  display: block;
+  width: 350px;
+  height: 190px;
+  margin: 250px auto;
+  background-color: whitesmoke;
+  padding: 15px;
+  -webkit-box-shadow: 6px 11px 24px -1px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 6px 11px 24px -1px rgba(0, 0, 0, 0.6);
+  box-shadow: 6px 11px 24px -1px rgba(0, 0, 0, 0.6);
+  transition: 1.5s ease;
+  -moz-transition: 1.5s ease;
+  -webkit-transition: 1.5s ease;
+  -o-transition: 1.5s ease;
+  background-image: url("http://s336220192.mialojamiento.es/archivo/codepen/american-psycho/bone-white.png");
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  transform: rotate(10deg);
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5), 0px -1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.business-card:hover {
+  transform: scale(2);
+  -moz-transform: scale(2);
+  -webkit-transform: scale(2);
+  -o-transform: scale(2);
+  -ms-transform: scale(2);
+}
+.head { display: inline-block;
+        float: left;
+        margin:0;}
+
+.logo {padding: 0px 20px 0px 0px; float: left;
+  width: 50px;
+  height: 50px;
+}
+
+.name {padding: 0rem; margin: 0rem;
+}
+.dolly {background-color: #EC008C; /* Pink */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;}
+.bunki {background-color: #06065E; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;}
+.nametitle {padding: 0rem; margin: 0rem;
+  display: inline-block;
+  text-align: left;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: pink;
+}
+#zee {font-size: 1.5em; margin: 0; padding: 0px; font-weight: bold;}
+#job {font-size: 1.30em; margin: 0; padding: 0px;}
+
+.Work {
+  text-align: center;
+  display: block;
+  font-size: 11px;
+  margin-top: 6px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+@font-face {
+    font-family: 'si';
+    src: url('PATH_TO/socicon.eot');
+    src: url('PATH_TO/socicon.eot?#iefix') format('embedded-opentype'),
+         url('PATH_TO/socicon.woff') format('woff'),
+         url('PATH_TO/socicon.ttf') format('truetype'),
+         url('PATH_TO/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(PATH_TO/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 19px;
+    -webkit-border-radius: 38px;
+    -moz-border-radius: 38px;
+    border-radius: 38px;
+    margin-right: 9px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.soc a:hover {
+    z-index: 2;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-twitter:before {
+    content:'a';
+}
+.soc-instagram:before {
+    content:'x';
+}
+.soc-linkedin:before {
+    content:'j';
+}
+.soc-github:before {
+    content:'Q';
+}

@@ -1,0 +1,295 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #ef1589;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4em;
+    font-weight: 700;
+    color: #ef1589;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: #ef1589;;
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+/* Side Menu */
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    margin-right: -250px;
+    overflow-y: auto;
+    background: #222;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 55px;
+    font-size: 18px;
+    line-height: 55px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+#menu-toggle {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#sidebar-wrapper.active {
+    right: 250px;
+    width: 250px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.toggle {
+    margin: 5px 5px 0 0;
+}
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.header a {
+    color: #ef1589;
+    font-size: 5em;
+}
+.glyphicon:hover,
+.glyphicon:focus,
+.glyphicon:active {
+    text-decoration: none;
+    color: rgba(0,0,0,0.7);
+}
+
+/* About */
+
+.about {
+    padding: 50px 0;
+    background-color: #ef1589;
+}
+
+#webdesign {
+    color: white;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding: 50px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+/* Footer *//*business card*/
+
+.business-card {
+  display: block;
+  width: 350px;
+  height: 190px;
+  margin: 250px auto;
+  background-color: whitesmoke;
+  padding: 15px;
+  -webkit-box-shadow: 6px 11px 24px -1px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 6px 11px 24px -1px rgba(0, 0, 0, 0.6);
+  box-shadow: 6px 11px 24px -1px rgba(0, 0, 0, 0.6);
+  transition: 1.5s ease;
+  -moz-transition: 1.5s ease;
+  -webkit-transition: 1.5s ease;
+  -o-transition: 1.5s ease;
+  background-image: url("http://s336220192.mialojamiento.es/archivo/codepen/american-psycho/bone-white.png");
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  transform: rotate(10deg);
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5), 0px -1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.business-card:hover {
+  transform: scale(2);
+  -moz-transform: scale(2);
+  -webkit-transform: scale(2);
+  -o-transform: scale(2);
+  -ms-transform: scale(2);
+}
+.head { Display: inline-block;
+          float: left;
+        margin:0;}
+
+.logo {
+  display: block;
+  float: left;
+  width: 50px;
+    height: 50px;
+}
+
+.name {
+}
+
+.nametitle {
+  padding: 0px;
+  margin: 0;
+  display: inline-block;
+  text-align: left;
+}
+#zee {font-size: 1.5em; padding: 0px 0px 0px 10px; margin: 0;}
+
+#job {font-size: 1.30em; padding: 0px 0px 0px 10px; margin: 0;}
+
+#email {padding:0px; margin:0; font-size: 1.25em; color: #ef1589;}
+
+#email:hover,
+#email:focus,
+#email:active {
+    color: #ef1589;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.contact {margin: 0; padding: 10px 0px 0px 20px; text-decoration: none; color: #ef1589;}
+.contact i {padding:0px 5px 0px 0px;}
+.Work {
+  text-align: center;
+  display: block;
+  font-size: 11px;
+  margin-top: 60px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.Work > h3 {margin-left: 15px; font-size: 1.5em; text-align: left;}
+.social-media > h3 {padding: 5px 0px 0px 20px; margin:0; font-size: 1.25em; color: #ef1589;}
+.icons > a {padding: 5px; margin:0; font-size: 1.5em; color: #ef1589; text-align: center;}
+
+#desk {
+     background-image: url("https://pixabay.com/static/uploads/photo/2013/11/28/09/50/wall-219666_960_720.jpg");
+       display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
