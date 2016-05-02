@@ -156,12 +156,14 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
+    background: url(https://static.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg) no-repeat center center scroll;
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
-
 .header a {
     color: #ef1589;
     font-size: 5em;
@@ -208,7 +210,12 @@ background-color: #ef1589;
 }
 
 /* Footer *//*business card*/
+.footer {-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 
+}
 .business-card {
   display: block;
   width: 350px;
@@ -239,6 +246,12 @@ background-color: #ef1589;
   -o-transform: scale(2);
   -ms-transform: scale(2);
 }
+
+#mobile {position: static;}
+
+#mobile-social li a {color:#ef1589;} 
+#mobile-social li i {color: #ef1589; text-decoration: none;}
+
 .head { Display: inline-block;
           float: left;
         margin:0;}
