@@ -210,12 +210,7 @@ background-color: #ef1589;
 }
 
 /* Footer *//*business card*/
-.footer {-webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 
-}
 .business-card {
   display: block;
   width: 350px;
@@ -247,7 +242,7 @@ background-color: #ef1589;
   -ms-transform: scale(2);
 }
 
-#mobile {position: static;}
+#mobile {position: static; margin-top:30%; margin-bottom: 30%;}
 
 #mobile-social li a {color:#ef1589;} 
 #mobile-social li i {color: #ef1589; text-decoration: none;}
@@ -305,7 +300,7 @@ background-color: #ef1589;
 #desk {
      background-image: url("https://pixabay.com/static/uploads/photo/2013/11/28/09/50/wall-219666_960_720.jpg");
        display: table;
-    position: relative;
+    position: static;
     width: 100%;
     height: 100%;
     -webkit-background-size: cover;
