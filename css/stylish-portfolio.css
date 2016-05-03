@@ -162,7 +162,6 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 }
-.header img { max-width: 50%; height: auto;}
 .header a {
     color: #ef1589;
     font-size: 5em;
@@ -281,15 +280,17 @@ background-color: #ef1589;
 
 .contact a {margin: 0; padding: 0px 0px 0px 20px; text-decoration: none; color: #ef1589;}
 .contact {margin: 0; padding: 10px 0px 0px 20px;}
-.Work {
-  text-align: center;
-  display: block;
-  font-size: 11px;
-  margin-top: 60px;
-  margin-left: 8px;
-  margin-right: 8px;
+#work { margin: 0; 
+    padding: 0px;
+    display: table;
+    position: static;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
-.Work > h3 {margin-left: 15px; font-size: 1.5em; text-align: left;}
 .social-media > h3 {padding: 5px 0px 0px 20px; margin-top:20; font-size: 1.25em; color: #ef1589;}
 .icons > a {padding: 5px; margin:0; font-size: 1.5em; color: #ef1589; text-align: center;}
 
