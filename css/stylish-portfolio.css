@@ -178,13 +178,18 @@ hr.small {
 /* About */
 
 .about {
-    padding: 50px 0;
-background-color: #ef1589;
-     -webkit-background-size: cover;
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #ef1589;
+    background: url(http://www.zlnicholas.tech/img/notepadpenphone.png)  no-repeat center center scroll;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
+    background-size: cover; 
     -o-background-size: cover;
 }
+.about h2 {}
 
 #webdesign {
     color: white;
@@ -209,7 +214,7 @@ background-color: #ef1589;
     opacity: 0.8;
 }
 
-/* Footer *//*business card*/
+/*business card*/
 
 .business-card {
   display: block;
@@ -308,3 +313,10 @@ background-color: #ef1589;
     background-size: cover;
     -o-background-size: cover;
 }
+/*Footer*/
+footer p {
+  font-size: 1.5em;
+  color: white;}
+footer {
+margin: 0;
+background-color: #ef1589;}  
