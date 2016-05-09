@@ -195,6 +195,10 @@ hr.small {
     position: relative;
     background-color: #fff;
 }
+.portfolio h2 {font-size: 2em;}
+.portfolio p {font-size: 1em;}
+.portfolio h3 {font-size: .75em;}
+.portfolio li {font-size: .75em;}
 
 .portfolio-item {
     margin-bottom: 30px;
@@ -275,7 +279,7 @@ hr.small {
 .contact a {margin: 0; padding: 0px 0px 0px 20px; text-decoration: none; color: #ef1589;}
 .contact {margin: 0; padding: 10px 0px 0px 20px;}
 #work { margin: 0; 
-    padding: 6.08em;
+    padding: 0rem 8.5rem 8.5rem 0rem;
     display: table-cell;
     position: static;
     width: 100%;
