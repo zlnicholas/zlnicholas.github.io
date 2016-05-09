@@ -241,7 +241,7 @@ hr.small {
   -ms-transform: scale(2);
 }
 
-#mobile {position: static; margin-top:30%; margin-bottom: 30%;}
+#mobile {position: static; margin: 0; padding-bottom: 10rem; background-color: white;}
 
 #mobile-social li a {color:#ef1589;} 
 #mobile-social li i {color: #ef1589; text-decoration: none;}
