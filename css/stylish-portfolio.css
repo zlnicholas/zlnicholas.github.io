@@ -1,0 +1,416 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #ef1589;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif; color: #ef1589;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #ef1589;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: #ef1589;;
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+/* Navbar*/
+
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #ef1589;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #fff;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    color: rgba(255,255,255,.8);
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
+}
+.navbar-header i {color: white;}
+@media(min-width:768px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #ef1589;
+    }
+}
+
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(http://www.zlnicholas.tech/img/apple-iphone-smartphone-deskbw.jpg)  no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header a {
+    color: #ef1589;
+    font-size: 5em;
+}
+.header h1 {text-shadow: 7px 7px 8px #000000;}
+.header h2 {text-shadow: 2px 2px 2.5px #000000;}
+
+.glyphicon:hover,
+.glyphicon:focus,
+.glyphicon:active {
+    text-decoration: none;
+    color: rgba(0,0,0,0.7);
+}
+
+@media(max-width:320px) {
+  #top img {max-width: 50%; padding-top: 35%; height: auto;}
+  #top h1 {margin: 0; padding-top: 5%; font-size: 2em;}
+  #top h2 {margin: 0; padding: 0; font-size: 1.75em;}
+  #top a {margin: 0; padding: 0;}
+  #work {margin: 0; padding: 0px;}
+  #work h2 {font-size: 1em;}
+  #work h3 {font-size: .75em;}
+  #work p {font-size: .50em;}
+  #work li {font-size: .50em;}
+  #work img {margin: 0; padding: 0px;}
+}
+
+@media(max-width:360px) {
+  #top img {max-width: 50%; padding-top: 35%; height: auto;}
+  #top h1 {margin: 0; padding-top: 5%; font-size: 2em;}
+  #top h2 {margin: 0; padding: 0; font-size: 1.75em;}
+  #top a {margin: 0; padding: 0;}
+  #work {margin: 0; padding: 0px;}
+  #work h2 {font-size: em;}
+  #work h3 {font-size: .75em;}
+  #work p {font-size: .50em;}
+  #work li {font-size: .50em;}
+  #work img {max-width: 100%; margin: 0; padding: 0px;}
+}
+
+
+/* About */
+
+.about {
+   padding: 50px 0;
+    background-color: #ef1589;
+}
+.about h2 {}
+
+#webdesign {
+    color: white;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding: 50px 0;
+    position: relative;
+    background-color: #fff;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+/*masonry*/
+#print { /* Masonry container */
+    column-count: 4;
+    column-gap: 0em;
+}
+
+.item { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+}
+
+
+#print {
+   width: 100%;
+    margin: 0em 0;
+    padding: 0;
+    -moz-column-gap: 0em;
+    -webkit-column-gap: 0em;
+    column-gap: 0em;
+}
+
+.item {
+    display: inline-block;
+    background: #fff;
+    padding: 0px;
+    margin: 0;
+    width: 100%;
+  -webkit-transition:1s ease all;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+#print img{max-width:100%;}
+
+@media only screen and (min-width: 400px) {
+    #print {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    #print {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #print {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    #print {
+        -moz-column-count: 5;
+        -webkit-column-count: 5;
+        column-count: 5;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .wrapper {
+        width: 1260px;
+    }
+}
+
+/*business card*/
+.business-card {
+  display: block;
+  width: 350px;
+  height: 190px;
+  margin: 250px auto;
+  background-color: whitesmoke;
+  padding: 15px;
+  -webkit-box-shadow: 6px 11px 24px -1px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 6px 11px 24px -1px rgba(0, 0, 0, 0.6);
+  box-shadow: 6px 11px 24px -1px rgba(0, 0, 0, 0.6);
+  transition: 1.5s ease;
+  -moz-transition: 1.5s ease;
+  -webkit-transition: 1.5s ease;
+  -o-transition: 1.5s ease;
+  background-image: url("http://s336220192.mialojamiento.es/archivo/codepen/american-psycho/bone-white.png");
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  transform: rotate(10deg);
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5), 0px -1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.business-card:hover {
+  transform: scale(2);
+  -moz-transform: scale(2);
+  -webkit-transform: scale(2);
+  -o-transform: scale(2);
+  -ms-transform: scale(2);
+}
+
+#mobile {position: static; margin: 0; padding-bottom: 10rem; background-color: white; width: 100%;}
+
+#mobile-social li a {color:#ef1589;} 
+#mobile-social li i {color: #ef1589; text-decoration: none;}
+
+.head { Display: inline-block;
+          float: left;
+        margin:0;}
+
+.logo {
+  display: block;
+  float: left;
+  width: 50px;
+    height: 50px;
+}
+
+.name {
+}
+
+.nametitle {
+  padding: 0px;
+  margin: 0;
+  display: inline-block;
+  text-align: left;
+}
+#zee {font-size: 1.5em; padding: 0px 0px 0px 10px; margin: 0;}
+
+#job {font-size: 1.30em; padding: 0px 0px 0px 10px; margin: 0;}
+
+#email {padding:0px; margin:0; font-size: 1.25em; color: #ef1589;}
+
+.contact a {margin: 0; padding: 0px 0px 0px 20px; text-decoration: none; color: #ef1589;}
+.contact {margin: 0; padding: 10px 0px 0px 20px;}
+#work { margin: 0; 
+    display: table-cell;
+    position: static;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#work h2{color: #f36b37; font-size: 2.5em;}
+#work h3 {color: #f36b37; font-size: 1.75em;}
+#work p {color: #f36b37; font-size: 2em;}
+#work li {color: #f36b37; font-size: 1.5em;}
+.bunkitext {
+    margin-top: 7%;
+}
+
+.social-media > h3 {padding: 5px 0px 0px 20px; margin-top:20; font-size: 1.25em; color: #ef1589;}
+.icons > a {padding: 5px; margin:0; font-size: 1.5em; color: #ef1589; text-align: center;}
+
+#desk {
+     background-image: url("https://pixabay.com/static/uploads/photo/2013/11/28/09/50/wall-219666_960_720.jpg");
+       display: table;
+    position: static;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/*Footer*/
+footer p {
+  font-size: 1.5em;
+  color: white; 
+  background-color: #ef1589;}
+footer {
+margin: 0;
+background-color: #ef1589;
+padding-top: 0.75em;}  
