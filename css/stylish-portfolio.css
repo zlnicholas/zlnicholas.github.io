@@ -234,9 +234,41 @@ hr.small {
 .img-portfolio:hover {
     opacity: 0.8;
 }
+/*masonry*/
+#print { 
+  display: -webkit-box; 
+  display: -webkit-flex; 
+  display: -ms-flexbox; 
+  display: inline-flex; 
+  -webkit-box-orient: vertical; 
+  -webkit-box-direction: normal; 
+  -webkit-flex-direction: column; 
+      -ms-flex-direction: column; 
+          flex-direction: column; 
+   -webkit-flex-wrap: wrap; 
+      -ms-flex-wrap: wrap; 
+          flex-wrap: wrap;
+  height: auto;
+  max-height: 800px;
+  max-width: 1880px;
+  font-size: 0;  
+}
+#print img {  
+  width: 25%;
+  -webkit-transition: .8s opacity;
+  transition: .8s opacity;
+  max-width:100%;
+} 
+#print:hover img { opacity: 0.3; }
+#print:hover img:hover { opacity: 1; } 
+#print img {  
+  display: inline-block;
+  vertical-align: top;
+  }
+}
+
 
 /*business card*/
-
 .business-card {
   display: block;
   width: 350px;
