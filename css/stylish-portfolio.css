@@ -235,38 +235,78 @@ hr.small {
     opacity: 0.8;
 }
 /*masonry*/
-#print { 
-  display: -webkit-box; 
-  display: -webkit-flex; 
-  display: -ms-flexbox; 
-  display: inline-flex; 
-  -webkit-box-orient: vertical; 
-  -webkit-box-direction: normal; 
-  -webkit-flex-direction: column; 
-      -ms-flex-direction: column; 
-          flex-direction: column; 
-   -webkit-flex-wrap: wrap; 
-      -ms-flex-wrap: wrap; 
-          flex-wrap: wrap;
-  height: auto;
-  max-height: 800px;
-  max-width: 1880px;
-  font-size: 0;  
-}
-#print img {  
-  width: 25%;
-  -webkit-transition: .8s opacity;
-  transition: .8s opacity;
-  max-width:100%;
-} 
-#print:hover img { opacity: 0.3; }
-#print:hover img:hover { opacity: 1; } 
-#print img {  
-  display: inline-block;
-  vertical-align: top;
-  }
+#print { /* Masonry container */
+    column-count: 4;
+    column-gap: 0em;
 }
 
+.item { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+}
+
+
+#print {
+   width: 100%;
+    margin: 0em 0;
+    padding: 0;
+    -moz-column-gap: 0em;
+    -webkit-column-gap: 0em;
+    column-gap: 0em;
+}
+
+.item {
+    display: inline-block;
+    background: #fff;
+    padding: 0px;
+    margin: 0;
+    width: 100%;
+  -webkit-transition:1s ease all;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+#print img{max-width:100%;}
+
+@media only screen and (min-width: 400px) {
+    #print {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    #print {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #print {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    #print {
+        -moz-column-count: 5;
+        -webkit-column-count: 5;
+        column-count: 5;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .wrapper {
+        width: 1260px;
+    }
+}
 
 /*business card*/
 .business-card {
