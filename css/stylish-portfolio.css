@@ -397,7 +397,7 @@ hr.small {
 .icons > a {padding: 5px; margin:0; font-size: 1.5em; color: #ef1589; text-align: center;}
 
 #desk {
-     background-image: url("https://pixabay.com/static/uploads/photo/2013/11/28/09/50/wall-219666_960_720.jpg");
+     background-image: url("../img/background.jpg");
        display: table;
     position: static;
     width: 100%;
