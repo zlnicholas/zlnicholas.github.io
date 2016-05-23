@@ -218,10 +218,6 @@ hr.small {
 
 /* Portfolio */
 
-.bunkitext {
-    margin-top: 7%;
-}
-
 .portfolio {
     padding: 50px 0;
     position: relative;
@@ -439,7 +435,7 @@ hr.small {
 .contact a {margin: 0; padding: 0px 0px 0px 20px; text-decoration: none; color: #ef1589;}
 .contact {margin: 0; padding: 10px 0px 0px 20px;}
 #work { margin: 0; 
-    padding: 18.750em;
+    padding: 12.500em;
     display: table-cell;
     position: static;
     width: 100%;
