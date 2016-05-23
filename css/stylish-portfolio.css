@@ -273,13 +273,12 @@ hr.small {
 
  /* Masonry bricks or child elements */
 
-#graphic img {
-    max-width:100%;  
+#graphic img { 
     display: inline-block;
     background: #fff;
     padding: 0px;
     margin: 0;
-    width: 100%;
+    width: auto;
    -webkit-transition:1s ease all;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
