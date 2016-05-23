@@ -331,7 +331,7 @@ hr.small {
 }
 #graphic img{max-width:100%;}
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 300px) {
     #graphic {
         -moz-column-count: 2;
         -webkit-column-count: 2;
