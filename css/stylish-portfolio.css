@@ -257,7 +257,9 @@ hr.small {
 .mockup:nth-child(3) {
   animation: fade 35s 20s infinite;
 }
+
 /*masonry*/
+#masonry {background-color: #fff}
 #graphic { /* Masonry container */
     column-count: 4;
     column-gap: 0em;
