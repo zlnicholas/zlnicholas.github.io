@@ -258,7 +258,7 @@ hr.small {
   animation: fade 35s 20s infinite;
 }
 /*masonry*/
-#print { /* Masonry container */
+#graphic { /* Masonry container */
     column-count: 4;
     column-gap: 0em;
 }
@@ -271,7 +271,7 @@ hr.small {
 }
 
 
-#print {
+#graphic {
    width: 100%;
     margin: 0em 0;
     padding-top: 5em;
@@ -292,7 +292,7 @@ hr.small {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
-#print img{max-width:100%;}
+#graphic img{max-width:100%;}
 
 @media only screen and (min-width: 400px) {
     #print {
