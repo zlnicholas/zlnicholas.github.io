@@ -242,7 +242,7 @@ hr.small {
 
 .content{
   max-width: 600px;
-  margin: 7% auto;
+  margin: 0 auto;
   position: relative;
   padding: 0 0;
   overflow: hidden;
