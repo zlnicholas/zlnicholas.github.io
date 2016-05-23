@@ -290,7 +290,7 @@ hr.small {
     -webkit-box-sizing: border-box;
 }
 
-#graphic img{max-width:100%;}
+#graphic img {max-width:100%;}
 
 @media only screen and (min-width: 300px) {
     #print {
