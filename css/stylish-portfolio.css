@@ -218,6 +218,10 @@ hr.small {
 
 /* Portfolio */
 
+.bunkitext {
+    margin-top: 7%;
+}
+
 .portfolio {
     padding: 50px 0;
     position: relative;
@@ -235,6 +239,11 @@ hr.small {
 .img-portfolio:hover {
     opacity: 0.8;
 }
+
+.bunkitext {
+    margin-top: 7%;
+}
+
 /*masonry*/
 #print { /* Masonry container */
     column-count: 4;
@@ -389,9 +398,6 @@ hr.small {
 #work h3 {color: #f36b37; font-size: 1.75em;}
 #work p {color: #f36b37; font-size: 2em;}
 #work li {color: #f36b37; font-size: 1.5em;}
-.bunkitext {
-    margin-top: 7%;
-}
 
 .social-media > h3 {padding: 5px 0px 0px 20px; margin-top:20; font-size: 1.25em; color: #ef1589;}
 .icons > a {padding: 5px; margin:0; font-size: 1.5em; color: #ef1589; text-align: center;}
