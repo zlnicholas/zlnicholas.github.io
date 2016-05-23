@@ -240,8 +240,63 @@ hr.small {
     opacity: 0.8;
 }
 
-.bunkitext {
-    margin-top: 7%;
+.content{
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 0;
+  overflow: hidden;
+}
+.intro{
+  position: relative;
+  width: 1000%;
+  height: 500px;
+  overflow: hidden;
+  background: #fff;
+   -webkit-animation: slide 25s infinite alternate ease;
+          animation: slide 25s infinite alternate ease;
+}
+.img-content{
+  float:left;
+  width: 600px;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}#photo-1{
+  background-image: url(http://www.zlnicholas.tech/img/zawadi-nicholas-bunki-wireframes.png);
+
+}
+#photo-2 {
+  background-image: url("http://www.zlnicholas.tech/img/zawadi-nicholas-bunki-mockups.png");
+}
+#photo-3{
+  background-image: url("http://www.zlnicholas.tech/img/bunkiphoneimac.png");
+}
+@-webkit-keyframes slide {
+    0%   {margin-left: 0px;}
+    33.33%  {margin-left: -600px;}
+    66.66%  {margin-left: -1200px;}
+    100% {margin-left: 0px;}
+}
+@keyframes slide {
+    0%   {margin-left: 0px;}
+    33.33%  {margin-left: -600px;}
+    66.66%  {margin-left: -1200px;}
+    99.99% {margin-left: 0px;}
+}
+/** Helper **/
+.clear:before, .clear:after {
+    content: " ";
+    display: table
+}
+
+.clear:after {
+    clear: both
 }
 
 /*masonry*/
