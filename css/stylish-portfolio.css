@@ -271,14 +271,10 @@ hr.small {
     -webkit-column-gap: 0em;
 }
 
-.item { /* Masonry bricks or child elements */
-    background-color: #eee;
-    display: inline-block;
-    margin: 0;
-    width: 100%;
-}
+ /* Masonry bricks or child elements */
 
-.item {
+#graphic img {
+    max-width:100%;  
     display: inline-block;
     background: #fff;
     padding: 0px;
@@ -287,10 +283,7 @@ hr.small {
    -webkit-transition:1s ease all;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-}
-
-#graphic img {max-width:100%;}
+    -webkit-box-sizing: border-box;}
 
 @media only screen and (min-width: 300px) {
     #print {
