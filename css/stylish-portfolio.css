@@ -294,6 +294,7 @@ hr.small {
     clear: both
 }
 
+
 /*masonry*/
 #print { /* Masonry container */
     column-count: 4;
@@ -367,6 +368,7 @@ hr.small {
     .wrapper {
         width: 1260px;
     }
+    #work {padding: 12.500em;}
 }
 
 /*business card*/
@@ -435,7 +437,6 @@ hr.small {
 .contact a {margin: 0; padding: 0px 0px 0px 20px; text-decoration: none; color: #ef1589;}
 .contact {margin: 0; padding: 10px 0px 0px 20px;}
 #work { margin: 0; 
-    padding: 12.500em;
     display: table-cell;
     position: static;
     width: 100%;
@@ -445,6 +446,7 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 }
+
 #work h2{color: #f36b37; font-size: 2.5em;}
 #work h3 {color: #f36b37; font-size: 1.75em;}
 #work p {color: #f36b37; font-size: 2em;}
