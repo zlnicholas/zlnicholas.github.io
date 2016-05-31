@@ -264,13 +264,13 @@ hr.small {
   background-repeat: no-repeat;
   
 }#photo-1{
-  background-image: url("http://www.zlnicholas.tech/img/zawadi-nicholas-bunki-wireframes.png");
+  background-image: url("../img/zawadi-nicholas-bunki-wireframes.png");
 }
 #photo-2 {
-  background-image: url("http://www.zlnicholas.tech/img/zawadi-nicholas-bunki-mockups.png");
+  background-image: url("../img/zawadi-nicholas-bunki-mockups.png");
 }
 #photo-3{
-  background-image: url("http://www.zlnicholas.tech/img/bunkiphoneimac.png");
+  background-image: url("../img/bunkiphoneimac.png");
 }
 @-webkit-keyframes slide {
     0%   {margin-left: 0px;}
