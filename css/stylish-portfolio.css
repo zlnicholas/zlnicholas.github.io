@@ -309,7 +309,7 @@ hr.small {
 }
 
 
-#graphic{
+#graphic {
    width: 100%;
     margin: 0em 0;
     padding-top: 5em;
@@ -318,6 +318,12 @@ hr.small {
     -webkit-column-gap: 0em;
     column-gap: 0em;
 }
+
+#graphic img {transition: .8s opacity;
+}
+
+#graphic:hover img { opacity: 0.3; }
+#graphic:hover img:hover { opacity: 1; } 
 
 .item {
     display: inline-block;
