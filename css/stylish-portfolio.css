@@ -318,7 +318,7 @@ hr.small {
     -webkit-column-gap: 0em;
     column-gap: 0em;
 }
-#graphic a {color: #ef1589; size: 2em;}
+#graphic a {color: #ef1589; font-size: 2em;}
 #graphic img {transition: .8s opacity;
 }
 
