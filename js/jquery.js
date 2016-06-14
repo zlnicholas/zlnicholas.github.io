@@ -12,14 +12,9 @@ $(document).keydown(function (event) {
     event.preventDefault();
     scrollToNext();
  }
-});
-
-function scrollToPrevious() {
-   var prevElement = getCurrentlyVisibleSection().prevAll('section');
-   if (prevElement.length > 0) scrollToElement(prevElement);
 }
 
-function getCurrentlyVisibleSection() {
+ function getCurrentlyVisibleSection() {
     $("#Section1").visible(true);
     var rtn;
     $.each($('section'), function (ind, val) {
@@ -30,3 +25,9 @@ function getCurrentlyVisibleSection() {
     });
     return rtn;
 }
+function scrollToPrevious() {
+   var prevElement = getCurrentlyVisibleSection().prevAll('section');
+   if (prevElement.length > 0) scrollToElement(prevElement);
+}
+
+
