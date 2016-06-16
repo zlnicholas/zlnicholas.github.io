@@ -269,6 +269,10 @@ hr.small {
 }
 #graphic i {color: #ef1589; font-size: 70px;}
 
+#graphic img {transition: .8s opacity;}
+
+#graphic:hover img { opacity: 0.3; }
+#graphic:hover img:hover { opacity: 1;} 
 
 .item {
     display: inline-block;
@@ -281,6 +285,7 @@ hr.small {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
+#graphic img{max-width:100%;}
 
 @media only screen and (min-width: 300px) {
     #graphic {
@@ -322,11 +327,7 @@ hr.small {
   color: #ef1589;
   text-transform: uppercase;}
 
-.imgdescription:hover .imgtext:hover {display: block; opacity: 1;}
-
-#graphic img {transition: .8s opacity; max-width:100%;}
-
-.imgdescription:hover img { opacity: 0.3;}
+.imgdescription:hover .imgtext {display: block;}
 
 @media only screen and (min-width: 1280px) {
     .wrapper {
