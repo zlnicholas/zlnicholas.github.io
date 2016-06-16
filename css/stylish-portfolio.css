@@ -272,7 +272,7 @@ hr.small {
 }
 
 #graphic:hover img { opacity: 0.3; }
-#graphic:hover img:hover { opacity: 1; } 
+#graphic:hover img:hover { opacity: 1;} 
 
 .item {
     display: inline-block;
@@ -318,6 +318,15 @@ hr.small {
         column-count: 5;
     }
 }
+
+.imgtext { border: 1px solid #ccc;
+  display: none;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;}
+
+.imgdescription:hover .imgtext {display: block;}
 
 @media only screen and (min-width: 1280px) {
     .wrapper {
