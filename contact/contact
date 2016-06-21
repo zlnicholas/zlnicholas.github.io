@@ -33,38 +33,38 @@
 
 </head>
 
-<body id="contact-page">
+<body>
 
     <!-- Navigation -->
-     <nav class="" >
+     <nav>
         <div class="container">
-            <div class="">
-                <button type="button" class="" >
+            <div>
+                <button>
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="" href="http//www.zlnicholas.tech">
+                <a>
                     <span class="light"> <img class="img-fluid center-block" src="../img/portfoliologo.png" width="25" height="25" alt="Zawadi Nicholas Logo"> </span>
                 </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="">
-                <ul class="">
+            <div>
+                <ul>
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
                         <a href="http//www.zlnicholas.tech"></a>
                     </li>
                     <li>
-                        <a class="" href="../about/about.html">About</a>
+                        <a class="page-scroll" href="../about/about.html">About</a>
                     </li>
                     <li>
-                        <a class="" href="#web">Work</a>
+                        <a class="page-scroll" href="#web">Work</a>
                     </li>
                     <li>
-                        <a class="" href="../graphics/graphics.html">Graphic</a>
+                        <a class="page-scroll" href="../graphics/graphics.html">Graphic</a>
                     </li>
                     <li>
-                        <a class="" href="../contact/contact.html">Contact</a>
+                        <a class="page-scroll" href="../contact/contact.html">Contact</a>
                     </li>
                     <li>
                         <a class="link" href="../documents/ZawadiNicholas.pdf" target="_blank">Resume</a>
@@ -108,7 +108,6 @@
 </div><!--/.social-media-->
 </div><!--/.buisness-card-->
 </div><!--/.desk-->
-
 <footer>
         <p class="text-center">Zawadi Nicholas © 2016</p>
 </footer>
