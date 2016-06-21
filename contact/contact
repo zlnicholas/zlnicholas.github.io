@@ -55,16 +55,16 @@
                         <a href="http//www.zlnicholas.tech"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="../about/about.html">About</a>
+                        <a class="" href="../about/about.html">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#web">Work</a>
+                        <a class="" href="#web">Work</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="../graphics/graphics.html">Graphic</a>
+                        <a class="" href="../graphics/graphics.html">Graphic</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="../contact/contact.html">Contact</a>
+                        <a class="" href="../contact/contact.html">Contact</a>
                     </li>
                     <li>
                         <a class="link" href="../documents/ZawadiNicholas.pdf" target="_blank">Resume</a>
