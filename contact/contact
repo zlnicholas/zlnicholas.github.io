@@ -19,7 +19,7 @@
 
     <!-- Custom CSS -->
     <link href="../css/stylish-portfolio.css" rel="stylesheet">
-    <link href="../css/customnav.css" rel="stylesheet">
+
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -33,7 +33,7 @@
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="contact-page" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -76,8 +76,8 @@
         <!-- /.container -->
     </nav>
 
-    <div id="desk" class="">        
-    <div class="business-card ">
+    <div id="desk">        
+    <div class="business-card">
         <div class="head">
             <img src="../img/portfoliologo.png" class="img-responsive Logo"  width="100" height="100">
         </div><!--/.head-->
