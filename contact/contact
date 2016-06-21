@@ -18,7 +18,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <!-- Custom CSS -->
-    <link href="../css/stylish-portfolio.css" rel="stylesheet">
+    <link href="../css/customnav.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -52,7 +52,7 @@
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a href="http//www.zlnicholas.tech"></a>
                     </li>
                     <li>
                         <a class="page-scroll" href="../about/about.html">About</a>
@@ -108,4 +108,9 @@
 </div><!--/.social-media-->
 </div><!--/.buisness-card-->
 </div><!--/.desk-->
+
+<footer>
+        <p class="text-center">Zawadi Nicholas © 2016</p>
+</footer>
+
 </body>
