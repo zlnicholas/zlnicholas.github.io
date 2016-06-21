@@ -36,9 +36,9 @@
 <body id="contact-page">
 
     <!-- Navigation -->
-     <nav class="" role="navigation">
+     <nav class="" >
         <div class="container">
-            <div class="navbar-header">
+            <div class="">
                 <button type="button" class="" >
                     <i class="fa fa-bars"></i>
                 </button>
