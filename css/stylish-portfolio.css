@@ -420,7 +420,7 @@ hr.small {
 #work li {color: #f36b37; font-size: 1.5em;}
 
 .social-media > h3 {padding: 5px 0px 0px 20px; margin-top:20; font-size: 1.25em; color: #ef1589;}
-.icons > a {padding: 5px; margin:0; font-size: 1.5em; color: #ef1589; text-align: center;}
+.icons > a {padding: 5px; margin:0; font-size: 1.5em; color: #ef1589; text-align: center; text-decoration: none;}
 
 #desk {
      background-image: url("../img/background2.jpg");
