@@ -345,7 +345,7 @@ hr.small {
   height: 190px;
   margin: 250px auto;
   background-color: whitesmoke;
-  padding: 15px;
+  padding: 30px 0px 30px 20px;
   -webkit-box-shadow: 6px 11px 24px -1px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 6px 11px 24px -1px rgba(0, 0, 0, 0.6);
   box-shadow: 6px 11px 24px -1px rgba(0, 0, 0, 0.6);
