@@ -168,8 +168,8 @@ hr.small {
     color: white;
     font-size: 5em;
 }
-.header h1 {text-shadow: 7px 7px 8px #000000;}
-.header h2 {text-shadow: 2px 2px 2.5px #000000;}
+.header h1 {color: white; size: 10em;}
+.header h2 {color: white; size: 8em;}
 
 .glyphicon:hover,
 .glyphicon:focus,
@@ -179,7 +179,7 @@ hr.small {
 }
 
 @media(max-width:320px) {
-  #top img {max-width: 50%; padding-top: 35%; height: auto;}
+  /*#top img {max-width: 50%; padding-top: 35%; height: auto;}*/
   #top h1 {margin: 0; padding-top: 5%; font-size: 2em;}
   #top h2 {margin: 0; padding: 0; font-size: 1.75em;}
   #top a {margin: 0; padding: 0;}
@@ -192,7 +192,7 @@ hr.small {
 }
 
 @media(max-width:360px) {
-  #top img {max-width: 50%; padding-top: 35%; height: auto;}
+  /*#top img {max-width: 50%; padding-top: 35%; height: auto;}*/
   #top h1 {margin: 0; padding-top: 5%; font-size: 2em;}
   #top h2 {margin: 0; padding: 0; font-size: 1.75em;}
   #top a {margin: 0; padding: 0;}
