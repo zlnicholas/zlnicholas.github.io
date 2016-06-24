@@ -402,7 +402,7 @@ hr.small {
 #email {padding:0px; margin:0; font-size: 1.25em; color: #ef1589;}
 
 .contact a {margin: 0; padding: 0px 0px 0px 20px; text-decoration: none; color: #ef1589;}
-.contact a:hover {font-size: 1.50em;}
+.contact a:hover {font-size: 100%;}
 .contact {margin: 0; padding: 10px 0px 0px 20px;}
 #work { margin: 0; 
     display: table-cell;
@@ -422,7 +422,7 @@ hr.small {
 
 .social-media > h3 {padding: 5px 0px 0px 20px; margin-top:20; font-size: 1.25em; color: #ef1589;}
 .icons > a {padding: 5px; margin:0; font-size: 1.5em; color: #ef1589; text-align: center; text-decoration: none;}
-.icons > a:hover {font-size: 1.50em}
+.icons > a:hover {font-size: 100%}
 
 #desk {
      background-image: url("../img/background2.jpg");
