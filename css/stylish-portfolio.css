@@ -168,8 +168,8 @@ hr.small {
     color: white;
     font-size: 5em;
 }
-.header h1 {color: white; size: 10em;}
-.header h2 {color: white; size: 8em;}
+#myname {color: white; size: 10em;}
+#byline {color: white; size: 8em;}
 
 .glyphicon:hover,
 .glyphicon:focus,
