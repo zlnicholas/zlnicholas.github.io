@@ -402,6 +402,7 @@ hr.small {
 #email {padding:0px; margin:0; font-size: 1.25em; color: #ef1589;}
 
 .contact a {margin: 0; padding: 0px 0px 0px 20px; text-decoration: none; color: #ef1589;}
+.contact a:hover {font-size: 1.50em;}
 .contact {margin: 0; padding: 10px 0px 0px 20px;}
 #work { margin: 0; 
     display: table-cell;
