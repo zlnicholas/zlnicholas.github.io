@@ -29,8 +29,8 @@ body {
 .text-vertical-center h1 {
     margin: 0;
     padding: 0;
-    font-size: 4em;
-    font-weight: 700;
+    font-size: 12em;
+    font-weight: 900;
 }
 
 /* Custom Button Styles */
@@ -169,7 +169,7 @@ hr.small {
     font-size: 5em;
 }
 #myname {color: white; size: 10em;}
-#byline {color: white; size: 8em;}
+.header h2 {color: white; size: 8em;}
 
 .glyphicon:hover,
 .glyphicon:focus,
