@@ -157,7 +157,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(http://www.zlnicholas.tech/img/apple-iphone-smartphone-deskbw.jpg)  no-repeat center center scroll;
+    background: url(http://www.zlnicholas.tech/img/apple-iphone-smartphone-desk-pink.png)  no-repeat center center scroll;
     background-color: white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -165,7 +165,7 @@ hr.small {
     -o-background-size: cover;
 }
 .header a {
-    color: #ef1589;
+    color: white;
     font-size: 5em;
 }
 .header h1 {text-shadow: 7px 7px 8px #000000;}
