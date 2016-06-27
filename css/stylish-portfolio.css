@@ -484,21 +484,6 @@ hr.small {
 .contact a {margin: 0; padding: 0px 0px 0px 10px; text-decoration: none; color: #ef1589;}
 .contact a:hover {font-size: 100%;}
 .contact {margin: 0; padding: 5px 0px 5px 20px;}
-#work { margin: 0; 
-    display: table-cell;
-    position: static;
-    width: 100%;
-    height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-#work h2{color: #f36b37; font-size: 2.5em;}
-#work h3 {color: #f36b37; font-size: 1.75em;}
-#work p {color: #f36b37; font-size: 2em;}
-#work li {color: #f36b37; font-size: 1.5em;}
 
 .social-media > h3 {padding: 5px 0px 0px 20px; margin-top:20; font-size: 1.25em; color: #ef1589;}
 .icons > a {padding: 5px; margin:0; font-size: 1.5em; color: #ef1589; text-align: center; text-decoration: none;}
