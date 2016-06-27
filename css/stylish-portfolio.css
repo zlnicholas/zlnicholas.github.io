@@ -228,7 +228,11 @@ hr.small {
 }
 
 /* Portfolio */
-#portfolio {background: white;}
+#portfolio {background: white;
+-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;}
 
 #portfolio .portfolio-item {
     right: 0;
