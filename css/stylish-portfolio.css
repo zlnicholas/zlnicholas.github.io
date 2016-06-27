@@ -308,6 +308,7 @@ hr.small {
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
+    color: #f36d38;
 }
 
 .portfolio-modal .modal-content img {
@@ -357,6 +358,9 @@ hr.small {
     display: none;
     opacity: 0;
 }
+
+.bunkitext { color: #f36d38;}
+
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
@@ -374,49 +378,6 @@ hr.small {
     color: #18bc9c;
     background: #fff;
 }
-
-/*masonry*/
-#print { /* Masonry container */
-    column-count: 4;
-    column-gap: 0em;
-}
-
-.item { /* Masonry bricks or child elements */
-    background-color: #eee;
-    display: inline-block;
-    margin: 0;
-    width: 100%;
-}
-.item {
-    display: inline-block;
-    background: #fff;
-    padding: 0px;
-    margin: 0;
-    width: 100%;
-  -webkit-transition:1s ease all;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-}
-
-
-.imgtext { border: none;
-  display: none;
-  font-size: 10px;
-  margin-top: 10px;
-  padding: 5px;
-  color: #ef1589;
-  text-transform: uppercase;}
-
-.imgdescription:hover .imgtext {display: block;}
-
-@media only screen and (min-width: 1280px) {
-    .wrapper {
-        width: 1260px;
-    }
-    #work {padding: 13em;}
-}
-#arrow {padding: 5em;}
 
 /*business card*/
 .business-card {
