@@ -186,7 +186,7 @@ hr.small {
     color: rgba(0,0,0,0.7);
 }
 
-@media(max-width:320px) {
+@media only screen and (max-width:320px) {
   /*#top img {max-width: 50%; padding-top: 35%; height: auto;}*/
   #top h1 {margin: 0; padding-top: 5%; font-size: 5em;}
   #top h2 {margin: 0; padding: 0; font-size: 3.25em;}
@@ -200,7 +200,7 @@ hr.small {
   .header a i {font-size: 5em;}
 }
 
-@media(max-width:360px) {
+@media only screen and (max-width:360px) {
   /*#top img {max-width: 50%; padding-top: 35%; height: auto;}*/
   #top h1 {margin: 0; padding-top: 5%; font-size: 5em;}
   #top h2 {margin: 0; padding: 0; font-size: 3.25em;}
@@ -213,13 +213,13 @@ hr.small {
   #work img {max-width: 100%; margin: 0; padding: 0px;}
   .header a i {font-size: 5em;}
 }
-@media(max-width:800px) {  
+@media only screen and (max-width:800px) {  
   #top h1 {margin: 0; padding-top: 5%; font-size: 13em;}
   #top h2 {margin: 0; padding: 0; font-size: 9em;}
   #top a {margin: 0; padding: 0;}
   #work {margin: 0; padding: 0}}
 
-@media(max-width:1280px) {  
+@media only screen and (max-width:1280px) {  
   #top h1 {margin: 0; padding-top: 5%; font-size: 10em;}
   #top h2 {margin: 0; padding: 0; font-size: 6.5em;}
   #top a {margin: 0; padding: 0;}
