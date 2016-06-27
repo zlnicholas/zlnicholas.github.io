@@ -359,7 +359,10 @@ hr.small {
     opacity: 0;
 }
 
-.bunkitext { color: #f36d38;}
+.bunkitext h2 { color: #f36d38;}
+.bunkitext p { color: #f36d38;}
+.bunkitext h3 { color: #f36d38;}
+.bunkitext li { color: #f36d38;}
 
 .btn-outline {
     margin-top: 15px;
