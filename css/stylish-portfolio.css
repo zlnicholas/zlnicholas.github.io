@@ -458,7 +458,7 @@ hr.small {
 .icons > a:hover {font-size: 100%}
 
 #desk {
-     background-image: url("img/background3.png");
+     background-image: url("../img/background3.png");
        display: table;
     position: static;
     width: 100%;
