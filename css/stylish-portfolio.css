@@ -229,6 +229,9 @@ hr.small {
 
 /* Portfolio */
 #portfolio {background: white;
+  width: 100%;
+  height: 100%;
+  padding: 20px 0px 500px 0px;
 -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -236,10 +239,7 @@ hr.small {
 
 #portfolio .portfolio-item {
     right: 0;
-    width: 100%;
-  height: 100%;
   margin:0 0 30px;
-  padding: 20px 0px 500px 0px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
