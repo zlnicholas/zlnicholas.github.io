@@ -229,6 +229,8 @@ hr.small {
 
 /* Portfolio */
 #portfolio {background: white;
+  width: 100%;
+  height: 100%;
 -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
