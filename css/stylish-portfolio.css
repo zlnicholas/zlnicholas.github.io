@@ -308,7 +308,6 @@ hr.small {
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
-    color: #f36d38;
 }
 
 .portfolio-modal .modal-content img {
@@ -363,6 +362,11 @@ hr.small {
 .bunkitext p { color: #f36d38;}
 .bunkitext h3 { color: #f36d38;}
 .bunkitext li { color: #f36d38;}
+
+.projtext h2 { color: #175581;}
+.projtext p { color: #175581;}
+.projtext h3 { color: #175581;}
+.projtext li { color: #175581;}
 
 .btn-outline {
     margin-top: 15px;
