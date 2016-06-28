@@ -291,6 +291,8 @@ hr.small {
     }
 }
 
+#reviews {margin: 0; padding: 0px;}
+
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
