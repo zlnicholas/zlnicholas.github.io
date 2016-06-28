@@ -173,6 +173,7 @@ hr.small {
     font-size: 10em;
 }
 
+.header h1 {color: white; size: 10em;}
 .header h2 {color: white; size: 8em;}
 
 .glyphicon:hover,
@@ -224,7 +225,7 @@ hr.small {
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
-    margin: 0 auto;
+    margin: 0;
     max-width: 700px;
 }
 
@@ -265,6 +266,12 @@ hr.small {
 
 #portfolio * {
     z-index: 2;
+}
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
 }
 
 #reviews {margin: 0; padding: 0px; background: white;}
