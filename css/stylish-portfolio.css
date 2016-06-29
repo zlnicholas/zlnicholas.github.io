@@ -141,6 +141,7 @@ hr.small {
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
+        background-color: transparent;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -149,7 +150,7 @@ hr.small {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background-color: transparent;
+        background: #ef1589;
     }
 }
 
