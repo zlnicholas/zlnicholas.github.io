@@ -413,10 +413,10 @@ background-color: #ef1589;
 padding-top: 0.75em;}  
 
 /*Mobile*/
-@media all (min-width:300px) and (max-width: 767) {
-  .header h1 {margin: 0; padding-top: 5%; font-size: 5em;}
-  .header h2 {margin: 0; padding: 0; font-size: 3.25em;}
-  .header a {margin: 0; padding: 0;}
+@media all and (min-width:319px) {
+  .text-vertical-center h1 {margin: 0; padding-top: 5%; font-size: 5em;}
+  .text-vertical-center h2 {margin: 0; padding: 0; font-size: 3.25em;}
+  .text-vertical-center a {margin: 0; padding: 0;}
   #work {margin: 0; padding: 0;}
   #work h2 {font-size: 1em;}
   #work h3 {font-size: .75em;}
@@ -425,7 +425,18 @@ padding-top: 0.75em;}
   #work img {max-width: 100%; margin: 0; padding: 0px;}
   .header a i {font-size: 5em;}
 }
-
+@media all and (min-width:359px) {
+  #top h1 {margin: 0; padding-top: 5%; font-size: 5em;}
+  #top h2 {margin: 0; padding: 0; font-size: 3.25em;}
+  #top a {margin: 0; padding: 0;}
+  #work {margin: 0; padding: 0;}
+  #work h2 {font-size: 1em;}
+  #work h3 {font-size: .75em;}
+  #work p {font-size: .50em;}
+  #work li {font-size: .50em;}
+  #work img {max-width: 100%; margin: 0; padding: 0px;}
+  .header a i {font-size: 5em;}
+}
 @media all and (min-width:767px) {  
   #top h1 {margin: 0; padding-top: 5%; font-size: 13em;}
   #top h2 {margin: 0; padding: 0; font-size: 9em;}
