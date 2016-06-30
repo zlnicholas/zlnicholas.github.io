@@ -135,24 +135,6 @@ hr.small {
 }
 .navbar-header i {color: white;}
 
-@media(min-width:768px) {
-    .navbar-custom {
-        padding: 20px 0;
-        border-bottom: 0;
-        letter-spacing: 1px;
-        background: 0 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .navbar-custom.top-nav-collapse {
-        padding: 0;
-        border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #ef1589;
-    }
-}
-
 
 /* Header */
 
@@ -240,12 +222,6 @@ hr.small {
 
 #portfolio * {
     z-index: 2;
-}
-
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
 }
 
 #reviews {margin: 0; padding: 0px; background: white;}
@@ -437,7 +413,7 @@ background-color: #ef1589;
 padding-top: 0.75em;}  
 
 /*Mobile*/
-@media screen and (min-width:319px) {
+@media all and (min-width:319px) {
   #top h1 {margin: 0; padding-top: 5%; font-size: 5em;}
   #top h2 {margin: 0; padding: 0; font-size: 3.25em;}
   #top a {margin: 0; padding: 0;}
@@ -465,7 +441,26 @@ padding-top: 0.75em;}
   #top h1 {margin: 0; padding-top: 5%; font-size: 13em;}
   #top h2 {margin: 0; padding: 0; font-size: 9em;}
   #top a {margin: 0; padding: 0;}
-  #work {margin: 0; padding: 0}}
+  #work {margin: 0; padding: 0}
+  .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+  .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #ef1589;
+    }
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
 
 @media all and (min-width:799px) {  
   #top h1 {margin: 0; padding-top: 5%; font-size: 13em;}
