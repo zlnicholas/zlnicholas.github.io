@@ -413,7 +413,7 @@ background-color: #ef1589;
 padding-top: 0.75em;}  
 
 /*Mobile*/
-@media all and (min-width:319px) {
+@media all and (min-width:300px) {
   #top h1 {margin: 0; padding-top: 5%; font-size: 5em;}
   #top h2 {margin: 0; padding: 0; font-size: 3.25em;}
   #top a {margin: 0; padding: 0;}
