@@ -182,43 +182,6 @@ hr.small {
     text-decoration: none;
     color: rgba(0,0,0,0.7);
 }
-@media only screen and (max-width:300px) {
-  #top h1 {margin: 0; padding-top: 5%; font-size: 5em;}
-  #top h2 {margin: 0; padding: 0; font-size: 3.25em;}
-  #top a {margin: 0; padding: 0;}
-  #work {margin: 0; padding: 0;}
-  #work h2 {font-size: 1em;}
-  #work h3 {font-size: .75em;}
-  #work p {font-size: .50em;}
-  #work li {font-size: .50em;}
-  #work img {max-width: 100%; margin: 0; padding: 0px;}
-  .header a i {font-size: 5em;}
-}
-@media only screen and (max-width:400px) {
-  #top h1 {margin: 0; padding-top: 5%; font-size: 5em;}
-  #top h2 {margin: 0; padding: 0; font-size: 3.25em;}
-  #top a {margin: 0; padding: 0;}
-  #work {margin: 0; padding: 0;}
-  #work h2 {font-size: 1em;}
-  #work h3 {font-size: .75em;}
-  #work p {font-size: .50em;}
-  #work li {font-size: .50em;}
-  #work img {max-width: 100%; margin: 0; padding: 0px;}
-  .header a i {font-size: 5em;}
-}
-@media only screen and (max-width:800px) {  
-  #top h1 {margin: 0; padding-top: 5%; font-size: 13em;}
-  #top h2 {margin: 0; padding: 0; font-size: 9em;}
-  #top a {margin: 0; padding: 0;}
-  #work {margin: 0; padding: 0}}
-
-@media only screen and (max-width:1280px) {  
-  #top h1 {margin: 0; padding-top: 5%; font-size: 10em;}
-  #top h2 {margin: 0; padding: 0; font-size: 6.5em;}
-  #top a {margin: 0; padding: 0;}
-  #work {margin: 0; padding: 0;}
-  .header a i {font-size: 8em;}
-}  
 
 /* Portfolio */
 #portfolio {background: white;
@@ -472,3 +435,42 @@ footer {
 margin: 0;
 background-color: #ef1589;
 padding-top: 0.75em;}  
+
+/*Mobile*/
+@media only screen and (max-width:300px) {
+  #top h1 {margin: 0; padding-top: 5%; font-size: 5em;}
+  #top h2 {margin: 0; padding: 0; font-size: 3.25em;}
+  #top a {margin: 0; padding: 0;}
+  #work {margin: 0; padding: 0;}
+  #work h2 {font-size: 1em;}
+  #work h3 {font-size: .75em;}
+  #work p {font-size: .50em;}
+  #work li {font-size: .50em;}
+  #work img {max-width: 100%; margin: 0; padding: 0px;}
+  .header a i {font-size: 5em;}
+}
+@media only screen and (max-width:400px) {
+  #top h1 {margin: 0; padding-top: 5%; font-size: 5em;}
+  #top h2 {margin: 0; padding: 0; font-size: 3.25em;}
+  #top a {margin: 0; padding: 0;}
+  #work {margin: 0; padding: 0;}
+  #work h2 {font-size: 1em;}
+  #work h3 {font-size: .75em;}
+  #work p {font-size: .50em;}
+  #work li {font-size: .50em;}
+  #work img {max-width: 100%; margin: 0; padding: 0px;}
+  .header a i {font-size: 5em;}
+}
+@media only screen and (max-width:800px) {  
+  #top h1 {margin: 0; padding-top: 5%; font-size: 13em;}
+  #top h2 {margin: 0; padding: 0; font-size: 9em;}
+  #top a {margin: 0; padding: 0;}
+  #work {margin: 0; padding: 0}}
+
+@media only screen and (max-width:1280px) {  
+  #top h1 {margin: 0; padding-top: 5%; font-size: 10em;}
+  #top h2 {margin: 0; padding: 0; font-size: 6.5em;}
+  #top a {margin: 0; padding: 0;}
+  #work {margin: 0; padding: 0;}
+  .header a i {font-size: 8em;}
+}  
