@@ -414,9 +414,9 @@ padding-top: 0.75em;}
 
 /*Mobile*/
 @media screen (max-width:320px) {
-  #top h1 {margin: 0; padding-top: 5%; font-size: 5em !important;}
-  #top h2 {margin: 0; padding: 0; font-size: 3.25em !important;}
-  #top a {margin: 0; padding: 0;}
+  .text-vertical-center h1 {margin: 0; padding-top: 5%; font-size: 5em !important;}
+  .text-vertical-center h2 {margin: 0; padding: 0; font-size: 3.25em !important;}
+  .text-vertical-center a {margin: 0; padding: 0;}
   #work {margin: 0; padding: 0;}
   #work h2 {font-size: 1em !important;}
   #work h3 {font-size: .75em !important;}
