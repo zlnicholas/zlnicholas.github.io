@@ -411,3 +411,73 @@ footer {
 margin: 0;
 background-color: #ef1589;
 padding-top: 0.75em;}  
+
+/*Mobile*/
+@media screen (max-width:320px) {
+  #top h1 {margin: 0; padding-top: 5%; font-size: 5em!important;}
+  #top h2 {margin: 0; padding: 0; font-size: 3.25em!important;}
+  #top a {margin: 0; padding: 0;}
+  #work {margin: 0; padding: 0;}
+  #work h2 {font-size: 1em!important;}
+  #work h3 {font-size: .75em!important;}
+  #work p {font-size: .50em!important;}
+  #work li {font-size: .50em!important;}
+  #work img {max-width: 100%; margin: 0; padding: 0px;}
+  .header a i {font-size: 5em!important;}
+}
+@media screen (min-width: 321px) and (max-width:360px) {
+  #top h1 {margin: 0; padding-top: 5%; font-size: 5em;}
+  #top h2 {margin: 0; padding: 0; font-size: 3.25em;}
+  #top a {margin: 0; padding: 0;}
+  #work {margin: 0; padding: 0;}
+  #work h2 {font-size: 1em;}
+  #work h3 {font-size: .75em;}
+  #work p {font-size: .50em;}
+  #work li {font-size: .50em;}
+  #work img {max-width: 100%; margin: 0; padding: 0px;}
+  .header a i {font-size: 5em;}
+}
+@media screen (min-width: 361px) and (max-width:768px) {  
+  #top h1 {margin: 0; padding-top: 5%; font-size: 13em;}
+  #top h2 {margin: 0; padding: 0; font-size: 9em;}
+  #top a {margin: 0; padding: 0;}
+  #work {margin: 0; padding: 0}
+  .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+  .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #ef1589;
+    }
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+@media screen (min-width: 321px) and (max-width:800px) {  
+  #top h1 {margin: 0; padding-top: 5%; font-size: 13em;}
+  #top h2 {margin: 0; padding: 0; font-size: 9em;}
+  #top a {margin: 0; padding: 0;}
+  #work {margin: 0; padding: 0}}
+
+@media screen (min-width: 801px) and (max-width:980px) {  
+  #top h1 {margin: 0; padding-top: 5%; font-size: 13em;}
+  #top h2 {margin: 0; padding: 0; font-size: 9em;}
+  #top a {margin: 0; padding: 0;}
+  #work {margin: 0; padding: 0}}  
+
+@media screen (min-width: 981px) and (max-width:1280px) {  
+  #top h1 {margin: 0; padding-top: 5%; font-size: 10em;}
+  #top h2 {margin: 0; padding: 0; font-size: 6.5em;}
+  #top a {margin: 0; padding: 0;}
+  #work {margin: 0; padding: 0;}
+  .header a i {font-size: 8em;}
+}  
