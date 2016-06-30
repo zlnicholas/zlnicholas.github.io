@@ -72,14 +72,19 @@ hr.small {
 }
 
 /* Navbar*/
-
 .navbar-custom {
-    margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #ef1589;
-}
+        padding: 10px 0;
+        margin-bottom: 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        background-color: #ef1589;
+    }
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
@@ -89,6 +94,11 @@ hr.small {
     outline: 0;
 }
 
+.navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #ef1589;
+    }
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
