@@ -437,7 +437,7 @@ background-color: #ef1589;
 padding-top: 0.75em;}  
 
 /*Mobile*/
-@media only screen and (max-width:321px) {
+@media all and (min-width:319px) {
   #top h1 {margin: 0; padding-top: 5%; font-size: 5em;}
   #top h2 {margin: 0; padding: 0; font-size: 3.25em;}
   #top a {margin: 0; padding: 0;}
@@ -449,7 +449,7 @@ padding-top: 0.75em;}
   #work img {max-width: 100%; margin: 0; padding: 0px;}
   .header a i {font-size: 5em;}
 }
-@media only screen and (max-width:361px) {
+@media all and (min-width:359px) {
   #top h1 {margin: 0; padding-top: 5%; font-size: 5em;}
   #top h2 {margin: 0; padding: 0; font-size: 3.25em;}
   #top a {margin: 0; padding: 0;}
@@ -461,25 +461,25 @@ padding-top: 0.75em;}
   #work img {max-width: 100%; margin: 0; padding: 0px;}
   .header a i {font-size: 5em;}
 }
-@media only screen and (max-width:769px) {  
+@media all and (min-width:767px) {  
   #top h1 {margin: 0; padding-top: 5%; font-size: 13em;}
   #top h2 {margin: 0; padding: 0; font-size: 9em;}
   #top a {margin: 0; padding: 0;}
   #work {margin: 0; padding: 0}}
 
-@media only screen and (max-width:801px) {  
+@media all and (min-width:799px) {  
   #top h1 {margin: 0; padding-top: 5%; font-size: 13em;}
   #top h2 {margin: 0; padding: 0; font-size: 9em;}
   #top a {margin: 0; padding: 0;}
   #work {margin: 0; padding: 0}}
 
-@media only screen and (max-width:981px) {  
+@media all and (min-width:979px) {  
   #top h1 {margin: 0; padding-top: 5%; font-size: 13em;}
   #top h2 {margin: 0; padding: 0; font-size: 9em;}
   #top a {margin: 0; padding: 0;}
   #work {margin: 0; padding: 0}}  
 
-@media only screen and (max-width:1281px) {  
+@media all and (min-width:1279px) {  
   #top h1 {margin: 0; padding-top: 5%; font-size: 10em;}
   #top h2 {margin: 0; padding: 0; font-size: 6.5em;}
   #top a {margin: 0; padding: 0;}
