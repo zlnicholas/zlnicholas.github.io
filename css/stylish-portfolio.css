@@ -409,6 +409,7 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    z-index: -100;
 }
 /*Footer*/
 footer p {
