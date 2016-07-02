@@ -397,6 +397,7 @@ hr.small {
 .icons > a {padding: 5px; margin:0; font-size: 1.5em; color: #ef1589; text-align: center; text-decoration: none;}
 .icons > a:hover {font-size: 100%}
 
+#hmu {margin: 0; padding: 0px;}
 #desk {
   margin: 0;
   padding: 0px;
@@ -409,7 +410,6 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    z-index: -100;
 }
 /*Footer*/
 footer p {
