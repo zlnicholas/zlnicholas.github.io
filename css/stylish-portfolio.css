@@ -397,13 +397,10 @@ hr.small {
 .icons > a {padding: 5px; margin:0; font-size: 1.5em; color: #ef1589; text-align: center; text-decoration: none;}
 .icons > a:hover {font-size: 100%}
 
-#hmu {margin: 0; padding: 0px;}
 #desk {
-  margin: 0;
-  padding: 0px;
      background-image: url("../img/background3.png");
     display: table;
-    position: fixed;
+    position: static;
     width: 100%;
     height: 100%;
     -webkit-background-size: cover;
