@@ -326,10 +326,9 @@ hr.small {
     background: #fff;
 }
 /*Reviews section*/
-#reviews {margin:0; padding: 185px 50px 185px 50;}
+#reviews {margin:0; padding: 150px;}
 #reviews .blockquote {
   border-left: none;
-  border-right: none;
   quotes: "\201C""\201D""\2018""\2019";
 }
 
