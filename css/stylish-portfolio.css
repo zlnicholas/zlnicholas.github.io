@@ -326,7 +326,7 @@ hr.small {
     background: #fff;
 }
 /*Reviews section*/
-#reviews {margin:0; padding: 200px;}
+#reviews {margin:0; padding: 150px;}
 #reviews blockquote p {font-size: 2em;}
 #reviews .blockquote-footer{ background: white;}
 
