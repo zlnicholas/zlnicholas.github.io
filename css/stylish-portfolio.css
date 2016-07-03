@@ -331,10 +331,7 @@ hr.small {
   border-left: none;
   quotes: "\201C""\201D""\2018""\2019";
 }
-#reviews .blockquote-reverse {
-  border-left: none;
-  quotes: "\201C""\201D""\2018""\2019";
-}
+
 #reviews blockquote p {font-size: 2em;}
 #reviews .blockquote-footer{ background: white;}
 
