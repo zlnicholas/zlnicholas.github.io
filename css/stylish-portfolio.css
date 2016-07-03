@@ -327,7 +327,11 @@ hr.small {
 }
 /*Reviews section*/
 #reviews {margin:0; padding: 150px;}
-#reviews blockquote {
+#reviews .blockquote {
+  border-left: none;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+#reviews .blockquote-reverse {
   border-left: none;
   quotes: "\201C""\201D""\2018""\2019";
 }
