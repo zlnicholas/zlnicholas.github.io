@@ -163,8 +163,8 @@ hr.small {
     font-size: 10em;
 }
 
-.header h1 {color: white; size: 10em;}
-.header h2 {color: white; size: 8em;}
+.header h1 {color: #ef1589; size: 10em;}
+.header h2 {color: #ef1589; size: 8em;}
 
 .glyphicon:hover,
 .glyphicon:focus,
