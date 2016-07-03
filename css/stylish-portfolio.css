@@ -326,8 +326,8 @@ hr.small {
     background: #fff;
 }
 /*Reviews section*/
-#reviews {margin:0; padding: 0px 200px 0px 200px;}
-#reviews blockquote p{size: 4em;}
+#reviews {margin:0; padding: 200px;}
+#reviews blockquote p {font-size: 2em;}
 #reviews blockquote p footer{ background: white;}
 
 /*business card*/
