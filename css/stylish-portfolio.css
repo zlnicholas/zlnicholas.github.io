@@ -326,16 +326,7 @@ hr.small {
     background: #fff;
 }
 /*Reviews section*/
-#reviews { background-image: url("../img/backgroundreview.png");
-    display: table;
-    position: static;
-    width: 100%;
-    height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
+#reviews {margin:0; padding: 150px;}
 #reviews .blockquote {
   border-left: none;
   border-right: none;
