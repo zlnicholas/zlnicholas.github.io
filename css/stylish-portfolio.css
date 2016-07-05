@@ -418,6 +418,7 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 }
+
 /*Footer*/
 footer p {
   font-size: 1.5em;
@@ -435,7 +436,10 @@ padding-top: 0.75em;}
   #top a {margin: 0; padding: 0;}
   .header a i {font-size: 5em;}
   .navbar-brand {font-size: 1em;}
+  #reviews {margin: 0; padding: 20px;}
+  #reviews blockquote p {font-size: 1.5em;}
 }
+
 @media (min-width: 321px) and (max-width:435px) {
   #top h1 {margin: 0; padding-top: 5%; font-size: 5em;}
   #top h2 {margin: 0; padding: 0; font-size: 3.25em;}
