@@ -446,6 +446,8 @@ padding-top: 0.75em;}
   #top a {margin: 0; padding: 0;}
   .header a i {font-size: 5em;}
   .navbar-brand {font-size: 1em;}
+  #reviews {margin: 0; padding: 20px;}
+  #reviews blockquote p {font-size: 1.5em;}
 }
 
 @media (min-width: 436px) and (max-width:768px) {  
